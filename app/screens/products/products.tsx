@@ -5,7 +5,6 @@ import {useQuery} from '@tanstack/react-query';
 import {APIs} from '../../apis';
 import {FlatList} from 'react-native';
 import {styles} from './products.styles';
-import {useStoreJotai} from '../../state/store.jotai';
 
 const Products: React.FC<T_PRODUCTS_PROPS> = ({navigation}) => {
   const query = useQuery({

@@ -6,9 +6,7 @@ import {NavigationContainer} from '@react-navigation/native';
 import {useColorScheme} from 'react-native';
 import RNBootSplash from 'react-native-bootsplash';
 import {darkTheme, lightTheme} from '../../theme';
-
 const Stack = createNativeStackNavigator<RootStackParamList>();
-
 const RootStack = () => {
   const colorScheme = useColorScheme();
 
